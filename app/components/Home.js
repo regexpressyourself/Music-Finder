@@ -9,7 +9,7 @@ class Home extends React.Component {
                 <MainContainer>
                 <h1>Music Finder!</h1>
                 <p className="lead">Find you some music</p>
-                <Link to="/playerOne">
+                <Link to="/Search">
                 <button type="button" className="btn btn-lg btn-black">Get Started</button>
                 </Link>
                 </MainContainer>
