@@ -15,7 +15,7 @@ class Results extends React.Component {
         }
     }
     componentWillMount() {
-        var query = this.props.location.query;
+        let query = this.props.location.query;
         queryHelpers.getArtistInfo(query.artist)
                     .then(function(result) {
                         console.log(result);

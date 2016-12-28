@@ -6,7 +6,7 @@ import Home from '../components/Home';
 import Search from '../components/Search';
 import Results from '../components/Results';
 
-var routes = (
+let routes = (
     <Router history={hashHistory}>
 
         <Route path='/' component={Main}>

@@ -1,4 +1,4 @@
-var styles = {
+let styles = {
     greenBg: {
         background: '#1DB954'
     },
