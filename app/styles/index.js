@@ -4,6 +4,11 @@ let styles = {
     },
     space: {
         marginTop: '25px'
-    }
+    },
+    
+    artistImage: {
+        maxHeight: '500px',
+        margin: 'auto'
+        }
 }
 module.exports = styles;
