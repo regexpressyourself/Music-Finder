@@ -47,6 +47,9 @@ class Results extends React.Component{
     }
 }
 Results.propTypes = {
+    artistInfo: React.PropTypes.array,
+    isLoading: React.PropTypes.bool,
+    query: React.PropTypes.string
 }
 
 
