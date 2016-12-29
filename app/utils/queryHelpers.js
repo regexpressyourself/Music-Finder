@@ -7,7 +7,6 @@ function sanitizeResult(attribute) {
 }
 
 function optimizeResults(data){
-    console.log(data);
     let newObject = {id:'',
                      name:'',
                      image:'',
