@@ -4,7 +4,7 @@ import {Router, Route, hashHistory, IndexRoute} from 'react-router';
 import  Main from '../components/Main';
 import Home from '../components/Home';
 import Search from '../components/Search';
-import Results from '../components/Results';
+import ResultsContainer from '../containers/ResultsContainer';
 
 let routes = (
     <Router history={hashHistory}>
@@ -12,7 +12,7 @@ let routes = (
         <Route path='/' component={Main}>
             <IndexRoute component={Home} />
             <Route path='/search' component={Search} />
-            <Route path='/results' component={Results} />
+            <Route path='/results' component={ResultsContainer} />
         </Route>
     </Router>
 )
